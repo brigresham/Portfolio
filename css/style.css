@@ -1,0 +1,162 @@
+header {
+    background-image: linear-gradient(to bottom right,rgb(147, 142, 142),black );
+}
+header h1 {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: cyan;
+        text-align: center;
+        padding: 15px;
+        font-size: xx-large;
+}
+
+.color {
+    background: black;
+
+}
+.fix h3 {
+    text-align: center;
+}
+.fix {
+    background: rgb(247, 246, 246);
+}
+.fix li {
+    border: 2px solid black;
+    background-color: rgb(235, 229, 229);
+    margin: 10px;
+    padding: 5px;
+}
+.middle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px cyan solid;
+    padding: ;
+}
+
+.list {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.web a {
+    background: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid cyan;
+    color: cyan;
+  
+}
+.web {
+    padding-top: 5px;
+}
+
+.up {
+    opacity: 16%;
+
+}
+.me {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.the {
+    border-style: none;
+    background-color: cyan;
+    padding: 0;
+    letter-spacing: 1px;
+    border: 2px cyan solid;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.change a{
+    text-decoration: none;
+    color: black;
+}
+.change {
+    background-color: cyan;
+}
+.icon{
+    background: cyan;
+    padding: 5px;
+    border-radius: 25px;
+}
+.color {
+    background-color: rgb(168, 164, 164);
+}
+.but {
+    background-color: cyan;
+}
+.GO {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: solid 2px rgb(206, 198, 198);
+
+}
+.pic {
+    width: 10px;
+    height: 50px;
+}
+@media (min-width: 767px) {
+    header h1 {
+        text-align: left;
+        padding: 7px;
+    }
+    header a {
+        padding-left: px;
+    }
+    .list {
+        text-align: end;
+        padding-top: 45px;
+        padding-bottom: 0;
+    }
+    footer p{
+        text-align: left;
+    }
+    .fix li {
+        width: 320px;
+    }
+    .navbar {
+        justify-content: flex-end;
+    }
+ .no {
+    text-align: center;
+ }
+   .up {
+    height: 450px;
+    width: 100%;
+   }
+    .navbar a {
+        padding: 10px;
+    }
+    }
+    .comm {
+        height: 95px;
+    }
+    @media (max-width: 425px) {
+        .up {
+            height: 320px;
+        }
+    }
+    @media (min-width:1024px) {
+        .up {
+            height: 475px;
+        }
+        
+    }
+
+
+footer {
+    color: #ffffff;
+    background-image: linear-gradient(to bottom right,rgb(147, 142, 142),black );
+    text-align: center;
+    padding: 12px;
+}
+
